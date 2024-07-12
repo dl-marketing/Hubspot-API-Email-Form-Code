@@ -1,4 +1,3 @@
-<script>
 (async function() {
   async function fetchWithTimeout(resource, options, timeout = 2000) {
     const controller = new AbortController();
@@ -189,4 +188,3 @@
     await submitForm(form, ipAddress);
   });
 })();
-</script>
